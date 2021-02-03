@@ -1,0 +1,93 @@
+a, body, h1, h2, h3, div, body, html, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+body {
+    background: rgb(241, 240, 240);
+    margin-bottom: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+body.dark1 {
+    background: rgb(35, 35, 35);
+    color: white;
+}
+
+#BigContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: auto;
+}
+
+
+#proHeader {
+    width : 70px;
+    padding-bottom : 10px;
+    position: relative;
+    left: -275px;
+}
+
+h1 {
+    border-bottom : 2px solid black;
+}
+
+.dark2 {
+    border-bottom : 2px solid white;
+}
+
+
+.inStock {
+        justify-content: space-between;
+        margin: 8px 0;
+        padding: 10px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 600px;
+        box-shadow: 1px 2px 5px #888888;
+        border-radius: 5px;
+
+    }
+
+.inStockDark {
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(71, 70, 70);;
+    color: white;
+    width: 600px;
+    box-shadow: 1px 2px 5px #888888;
+    border-radius: 5px;
+
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    position: relative;
+    left: -217px;
+
+}
+
+button.dark3 {
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    position: relative;
+    left: -217px;
+    color: white;
+    background-color:  rgb(35, 35, 35);
+    border: 3px solid rgb(71, 70, 70);
+}
+
+p {
+    width: 33%
+}
